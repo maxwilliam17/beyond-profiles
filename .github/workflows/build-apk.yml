@@ -18,9 +18,3 @@ jobs:
         with:
           name: app-debug
           path: android/app/build/outputs/apk/debug/app-debug.apk
-```[cite: 4, 5]
-
-### Next Steps
-1. Select all text in the editor on your screen (`Ctrl + A`), paste the YAML above (`Ctrl + V`), and click the green **Commit changes...** button in the top-right corner[cite: 5].
-2. Go to the **Actions** tab, click **Build Debug APK**, and click **Run workflow**[cite: 3, 5].
-3. Once the run finishes with a green checkmark, scroll down to **Artifacts** and download **`app-debug`** to get your `.apk` file.
